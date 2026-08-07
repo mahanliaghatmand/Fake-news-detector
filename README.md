@@ -8,6 +8,8 @@ A deep learning application that classifies news articles as **Real** or **Fake*
 
 This project trains a text classification model on ~5,800 labeled news articles to detect fake news. Article text is tokenized, converted into padded sequences, and passed through an Embedding + Bidirectional LSTM network to output the probability that an article is genuine.
 
+### 🔗 https://fake-news-detector-mahan-liaghatmand.streamlit.app/
+
 A lightweight **Streamlit web app** is included so predictions can be made by simply pasting article text into a browser — no coding required.
 
 > ⚠️ **Important:** An audit of the training data uncovered a significant leakage signal — see [Known Limitations](#-known-limitations) before using this model for anything beyond a demo. Full details are in the accompanying [project report](#-project-report).
